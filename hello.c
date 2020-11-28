@@ -2,5 +2,5 @@
 
 int main(void)
 {
-    printf("This is my first line of code");
+    printf("This is my first line of code\n");
 }
