@@ -1,6 +1,8 @@
+#include <cs50.h>
 #include <stdio.h>
 
 int main(void)
 {
-    printf("This is my first line of code\n");
+    string answer = get_string("What's your name?\n");
+    printf("Hello %s\n", answer);
 }
